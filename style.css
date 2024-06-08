@@ -23,3 +23,7 @@ a {
   justify-content: space-between;
   background-color: gray;
 }
+
+.hero {
+  display: flex;
+}
