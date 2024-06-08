@@ -27,3 +27,17 @@ a {
 .hero {
   display: flex;
 }
+
+.points {
+  display: flex;
+}
+
+.point {
+  width: 200px;
+}
+
+.point-image-placeholder {
+  width: 200px;
+  height: 200px;
+  border: 3px solid gray;
+}
