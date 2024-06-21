@@ -11,6 +11,7 @@ ul {
   padding: 0;
   margin: 0;
   display: flex;
+  gap: 16px;
 }
 
 a {
@@ -19,7 +20,10 @@ a {
 
 .header {
   height: 72px;
+  padding-left: 120px;
+  padding-right: 120px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   background-color: gray;
 }
