@@ -65,3 +65,12 @@ a {
 .modal {
   background-color: lightgray;
 }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 72px;
+  background-color: lightgray;
+  text-align: center;
+}
