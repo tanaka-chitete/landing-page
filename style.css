@@ -26,6 +26,11 @@ a {
 
 .hero {
   display: flex;
+  background-color: lightgray;
+}
+
+.information {
+  background-color: gray;
 }
 
 .points {
@@ -39,14 +44,24 @@ a {
 .point-image-placeholder {
   width: 200px;
   height: 200px;
-  border: 3px solid gray;
+  border: 3px solid lightgray;
 }
 
 .testimonial {
   display: flex;
   flex-direction: column;
+  background-color: lightgray;
 }
 
 .customer {
   align-self: flex-end;
+}
+
+.call-to-action {
+  background-color: gray;
+  padding: 60px;
+}
+
+.modal {
+  background-color: lightgray;
 }
