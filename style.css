@@ -96,9 +96,12 @@ a {
 }
 
 .testimonial {
+  padding-left: 120px;
+  padding-right: 120px;
   display: flex;
   flex: 1;
   flex-direction: column;
+  justify-content: center;
   background-color: lightgray;
 }
 
