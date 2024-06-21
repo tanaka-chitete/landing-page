@@ -24,12 +24,22 @@ a {
   background-color: gray;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
 .hero {
   display: flex;
+  flex: 1;
   background-color: lightgray;
 }
 
 .information {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   background-color: gray;
 }
 
@@ -49,6 +59,7 @@ a {
 
 .testimonial {
   display: flex;
+  flex: 1;
   flex-direction: column;
   background-color: lightgray;
 }
@@ -58,6 +69,7 @@ a {
 }
 
 .call-to-action {
+  flex: 1;
   background-color: gray;
   padding: 60px;
 }
