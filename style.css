@@ -110,13 +110,18 @@ a {
 }
 
 .call-to-action {
-  flex: 1;
   background-color: gray;
   padding: 60px;
 }
 
 .modal {
+  display: flex;
   background-color: lightgray;
+  align-items: center;
+}
+
+.modal-text {
+  flex: 1;
 }
 
 .footer {
