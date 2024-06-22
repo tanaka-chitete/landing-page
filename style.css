@@ -12,10 +12,12 @@ ul {
   margin: 0;
   display: flex;
   gap: 16px;
+  font-size: 18px;
 }
 
 a {
   text-decoration: none;
+  color: #e5e7eb;
 }
 
 .header {
@@ -25,7 +27,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: gray;
+  background-color: #1f2937;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 .content {
