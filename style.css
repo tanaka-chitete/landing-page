@@ -146,8 +146,18 @@ button {
   background-color: lightgray;
 }
 
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  margin-bottom: 8px;
+}
+
 .customer {
+  font-weight: bold;
   align-self: flex-end;
+  color: #1f2937;
 }
 
 .call-to-action {
