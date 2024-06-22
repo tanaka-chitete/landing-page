@@ -75,6 +75,10 @@ button {
   color: #f9faf8;
 }
 
+.inverted {
+  border: 1px solid #f9faf8;
+}
+
 .pitch {
   display: flex;
   flex-direction: column;
@@ -161,18 +165,32 @@ button {
 }
 
 .call-to-action {
-  background-color: gray;
+  background-color: #f9faf8;
   padding: 60px;
 }
 
 .modal {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 8px;
   display: flex;
-  background-color: lightgray;
+  justify-content: space-between;
+  background-color: #3882f6;
   align-items: center;
 }
 
-.modal-text {
-  flex: 1;
+.modal-main-text {
+  font-size: 18px;
+  font-weight: bold; 
+  color: #f9faf8;
+}
+
+.modal-sub-text {
+  font-size: 12px;
+  font-weight: lighter;
+  color: #f9faf8;
 }
 
 .footer {
