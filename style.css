@@ -198,6 +198,7 @@ button {
   align-items: center;
   justify-content: center;
   height: 72px;
-  background-color: lightgray;
+  background-color: #1f2937;
+  color: #f9faf8;
   text-align: center;
 }
